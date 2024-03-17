@@ -112,7 +112,7 @@ void relatorio (dados d[], int *tl)
     printf("Nomes:\n");
     for(i=0;i<*tl;i++)
     {
-        printf("s\n", d[i].nome);
+        printf("%s\n", d[i].nome);
     }
     system("pause");
 }
